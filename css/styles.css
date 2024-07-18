@@ -1,0 +1,61 @@
+#nav-bar  {
+    background-color: #ccb3ff;
+    border-radius: 0;
+    border: 0;
+    position: relative;
+    
+}
+#title {
+    position: absolute ;
+    left: 50px;
+}
+#title span {
+    font-size: large;
+    font-family: "Wittgenstein", serif;
+    color: black;
+    font-weight: bold;
+}
+#nav-list li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+     
+}
+
+#nav-list{
+    background-color: #ddccff;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+#nav-list hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main-content h1 {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+ #box  {
+    background-color: #af9ada;
+            border: 3px solid #8d64de;
+            height: 1000px;
+            box-sizing: border-box;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px; /* Add padding inside the box */
+            overflow: auto; /* Ensure overflowing content is handled */
+
+}
+#box p {
+    padding: 5px;
+    font-size: medium;
+}
+#box div {
+    margin-top: 10px;
+    font-size: large;
+    font-family:"Wittgenstein", serif ;
+    font-weight: bold;
+}
